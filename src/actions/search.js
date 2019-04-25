@@ -12,6 +12,7 @@ var handleVideoSearch = (q) => {
       dispatch(changeVideo(data[0]))
       dispatch(changeVideoList(data))
   })}
+
 };
 
 export default handleVideoSearch;
